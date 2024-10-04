@@ -10,9 +10,9 @@ const Form = () => {
 		<div className="w-full">
 			<form
 				onSubmit={handleSubmit}
-				className="mt-10 py-3 flex w-full flex-col gap-4"
+				className="mt-10 flex w-full flex-col gap-4 py-3"
 			>
-				<div className="w-full gap-4 space-y-4 lg:space-y-0 lg:flex">
+				<div className="w-full gap-4 space-y-4 lg:flex lg:space-y-0">
 					<div className="flex w-full flex-col gap-2">
 						<label
 							htmlFor="firstname"
@@ -25,7 +25,8 @@ const Form = () => {
 							name="firstname"
 							placeholder="First name"
 							id="firstname"
-							className="rounded-lg border border-[#F2F2F2] bg-[#FAFAFA] py-3 px-3 text-[#666666] caret-current transition-colors duration-300 placeholder:text-sm placeholder:text-[#808080] focus:border-[#D1B1D6] focus:shadow-md focus:outline-none"
+							className="rounded-lg border border-[#F2F2F2] bg-[#FAFAFA] px-3 py-3 text-[#666666] transition-colors duration-300 placeholder:text-sm placeholder:text-[#808080] focus:border-[#D1B1D6] focus:shadow-md focus:outline-none"
+							required
 						/>
 					</div>
 					<div className="flex w-full flex-col gap-2">
@@ -41,6 +42,7 @@ const Form = () => {
 							id="lastname"
 							placeholder="Last name"
 							className="rounded-lg border border-[#F2F2F2] bg-[#FAFAFA] p-3 px-3 text-[#666666] caret-current transition-colors duration-300 placeholder:text-sm placeholder:text-[#808080] focus:border-[#D1B1D6] focus:shadow-md focus:outline-none"
+							required
 						/>
 					</div>
 				</div>
@@ -58,11 +60,12 @@ const Form = () => {
 						placeholder="Your email"
 						autoComplete="on"
 						className="rounded-lg border border-[#F2F2F2] bg-[#FAFAFA] p-3 px-3 text-[#666666] caret-current transition-colors duration-300 placeholder:text-sm placeholder:text-[#808080] focus:border-[#D1B1D6] focus:shadow-md focus:outline-none"
+						required
 					/>
 				</div>
 				<button
 					type="submit"
-					className="w-full mt-3 cursor-pointer rounded-lg bg-[#6B047C] p-3 text-white transition-colors duration-300 hover:bg-[#6B047C]/90"
+					className="mt-3 w-full cursor-pointer rounded-lg bg-[#6B047C] p-3 text-white transition-colors duration-300 hover:bg-[#6B047C]/90"
 				>
 					Join Mailing list
 				</button>
