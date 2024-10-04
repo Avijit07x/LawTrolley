@@ -10,7 +10,7 @@ const Form = () => {
 		<div className="w-full">
 			<form
 				onSubmit={handleSubmit}
-				className="mt-10 flex w-full flex-col gap-4"
+				className="mt-10 py-3 flex w-full flex-col gap-4"
 			>
 				<div className="w-full gap-4 space-y-4 lg:space-y-0 lg:flex">
 					<div className="flex w-full flex-col gap-2">
