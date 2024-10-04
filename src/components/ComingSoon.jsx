@@ -3,7 +3,7 @@ import Form from "./Form";
 const ComingSoon = () => {
 	return (
 		<div className="inter w-full bg-white lg:flex">
-			<div className="h-full w-full px-5 py-3 lg:w-1/2 lg:px-10">
+			<div className="h-screen w-full px-5 py-3 lg:w-1/2 lg:px-10">
 				{/* logo */}
 				<div className="py-2 lg:py-5">
 					<img className="h-12" src="/logo.svg" alt="logo" />
@@ -11,7 +11,7 @@ const ComingSoon = () => {
 
 				<div>
 					{/* Text */}
-					<div className="mt-5 lg:mt-10">
+					<div className="mt-8 lg:mt-10">
 						<h1 className="text-3xl font-bold text-[#1A011E]">
 							We are Coming Soon...
 						</h1>
