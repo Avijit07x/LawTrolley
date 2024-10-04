@@ -13,6 +13,7 @@ const Form = () => {
 				className="mt-10 flex w-full flex-col gap-4 py-3"
 			>
 				<div className="w-full gap-4 space-y-4 lg:flex lg:space-y-0">
+					{/* First name */}
 					<div className="flex w-full flex-col gap-2">
 						<label
 							htmlFor="firstname"
@@ -29,6 +30,8 @@ const Form = () => {
 							required
 						/>
 					</div>
+
+					{/* Last name */}
 					<div className="flex w-full flex-col gap-2">
 						<label
 							htmlFor="lastname"
@@ -46,6 +49,7 @@ const Form = () => {
 						/>
 					</div>
 				</div>
+				{/* Email */}
 				<div className="flex w-full flex-col gap-2">
 					<label
 						htmlFor="email"
